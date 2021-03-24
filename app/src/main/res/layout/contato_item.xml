@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:backgroundTint="@color/lime_bg"
+    app:cardCornerRadius="8dp"
+    android:elevation="2dp"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:id="@+id/card_holder"
+        android:layout_margin="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_nome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="20dp"
+            android:text="John Appleseed"
+            android:textColor="@color/lime_700"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_nome_alternativo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="4dp"
+            android:textSize="16dp"
+            android:text="Johny"
+            android:textColor="@color/lime_500"/>
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/card_telefone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16dp"
+            android:padding="4dp"
+            android:textStyle="bold"
+            android:text="41 3024 2526"
+            />
+
+
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
